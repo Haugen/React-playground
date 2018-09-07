@@ -7,10 +7,10 @@ class Game extends Component {
     super(props);
     this.state = {
       history: [{
-        sqaures: Array(9).fill(null),
+        sqaures: Array(9).fill(null)
       }],
-      xIsNext: true,
-    }
+      xIsNext: true
+    };
   }
 
   handleClick(i) {
@@ -38,8 +38,7 @@ class Game extends Component {
     let status;
     if (winner) {
       status = 'Winner ' + winner;
-    }
-    else {
+    } else {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
 
