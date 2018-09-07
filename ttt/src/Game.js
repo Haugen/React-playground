@@ -7,7 +7,7 @@ class Game extends Component {
     super(props);
     this.state = {
       history: [{
-        sqaures: Array(9).fill(null)
+        squares: Array(9).fill(null)
       }],
       xIsNext: true
     };
