@@ -29,7 +29,7 @@ class Form extends Component {
     const { name, job } = this.state;
 
     return (
-      <form className="form-inline">
+      <form>
           <div className="form-group mr-4">
               <label className="mr-2">Name</label>
               <input

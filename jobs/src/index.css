@@ -3,3 +3,11 @@ body {
   padding: 0;
   padding-top: 50px;
 }
+
+.container {
+  width: 700px;
+}
+
+.table-actions {
+  width: 100px;
+}

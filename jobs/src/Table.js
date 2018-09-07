@@ -22,7 +22,7 @@ const TableHeader = () => {
         <tr>
             <th>Name</th>
             <th>Job</th>
-            <th>Actions</th>
+            <th className="table-actions">Actions</th>
         </tr>
     </thead>
   );
