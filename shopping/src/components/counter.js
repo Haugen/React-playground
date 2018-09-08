@@ -22,6 +22,7 @@ class Counter extends Component {
   };
 
   render() {
+    console.log(this.props);
     return (
       <div className="container mt-5">
         <div className="row">
@@ -34,7 +35,8 @@ class Counter extends Component {
             >
               Test
             </button>
-            <ul>{this.state.tags.map(tag => <li key={tag}>{tag}</li>)}</ul>
+            {this.props.children}
+            {/* <ul>{this.state.tags.map(tag => <li key={tag}>{tag}</li>)}</ul> */}
           </div>
         </div>
       </div>
