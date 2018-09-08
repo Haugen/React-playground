@@ -1,6 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Counters from "./components/counters";
 
-const element = <h1>Header</h1>;
+class App extends React.Component {
+  render() {
+    return <Counters />;
+  }
+}
 
-ReactDOM.render(element, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
