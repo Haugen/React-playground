@@ -9,8 +9,8 @@ class Counter extends Component {
 
   render() {
     return (
-      <div className="counter col-12 col-md-6 col-lg-4">
-        <h4>Counter #{this.props.counter.id}</h4>
+      <div className="counter col-12 col-md-6 col-lg-4 mb-4">
+        <strong className="d-block">Counter #{this.props.counter.id}</strong>
         <span className={this.badgeClasses()}>{this.props.counter.value}</span>
         <button
           onClick={() => this.props.onChange(this.props.counter, "minus")}
